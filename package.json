@@ -1,0 +1,27 @@
+{
+  "name": "flexibar",
+  "version": "1.0.0",
+  "description": "Flexible sidebar for the web",
+  "main": "flexibar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-y/flexibar.git"
+  },
+  "keywords": [
+    "sidebar",
+    "bar",
+    "toolbar",
+    "menu",
+    "flexible",
+    "web"
+  ],
+  "author": "Jim-Y",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jim-y/flexibar/issues"
+  },
+  "homepage": "https://github.com/jim-y/flexibar#readme"
+}
