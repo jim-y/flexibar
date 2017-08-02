@@ -4,6 +4,8 @@
   "description": "Flexible sidebar for the web",
   "main": "flexibar.js",
   "scripts": {
+    "build:scss": "node-sass flexibar.scss flexibar.css",
+    "watch": "node-sass flexibar.scss flexibar.css --watch flxibar.scss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/jim-y/flexibar/issues"
   },
-  "homepage": "https://github.com/jim-y/flexibar#readme"
+  "homepage": "https://github.com/jim-y/flexibar#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0"
+  }
 }
